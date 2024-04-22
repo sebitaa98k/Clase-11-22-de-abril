@@ -12,3 +12,11 @@ nombre.innerHTML = name;
 
 
 console.table(robots[0]);
+
+
+const getRobotById = (id = "1") => {
+    return robots.find((robots)=>{
+            robots.id === id;
+    })
+}
+
